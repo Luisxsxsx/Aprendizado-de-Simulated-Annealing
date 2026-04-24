@@ -8,7 +8,7 @@ class Ponto2d:
         self.y = y
 
     def __repr__(self): # Representation - equivalente ao operador << em C++. Serve para print
-        return f"Ponto2d({self.x:.2f}, {self.y:.2f})\n"
+        return f"({self.x:.2f}, {self.y:.2f})\n"
 
     def __str__(self):
         return f"({self.x:.2f}, {self.y:.2f})"
