@@ -44,10 +44,3 @@ class Ponto2d:
         dx = self.x - other.x
         dy = self.y - other.y
         return math.sqrt(dx*dx + dy*dy)
-
-    def  module(self): # modulo do vetor
-        return math.sqrt(self.x * self.x + self.y + self.y)
-
-    def as_tuple(self):
-        return (self.x, self.y)
-

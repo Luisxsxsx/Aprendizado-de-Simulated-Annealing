@@ -79,4 +79,6 @@ solucao = simulated_annealing(pontos_entrega, t_inicial ,resfriamento)
 print(f"Melhor rota encontrada entre pontos: {solucao[0]}\n")
 print(f"Distancia calculada da rota: {solucao[1]:.2f}")
 
+print(f"Pontos escolhidos: {pontos_entrega}")
+
 # print(f"Lista de pontos de entrega: {pontos_entrega}")
